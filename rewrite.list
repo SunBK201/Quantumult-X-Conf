@@ -1,3 +1,5 @@
+# https://raw.githubusercontent.com/SunBK201/Quantumult-X-Conf/master/rewrite.list
+
 ^https?://(www.)?google.cn url 302 https://www.google.com
 ^http:// - request-header (\r\n)User-[A|a]gent:.+(\r\n) request-header $1User-Agent: F$2
 ^https://web.age-spa.com:8443/ url response-body viewport-fit=cover"> response-body viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-touch-fullscreen" content="yes" /><link href="https://www.sunbk201.site/hackjs/age.jpg" rel="apple-touch-icon-precomposed"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-828x1792.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-1536x2048.png">
