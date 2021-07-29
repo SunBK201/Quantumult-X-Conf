@@ -9,7 +9,6 @@ hostname = web.age-spa.com, p0.pstatp.com, vip.cqkeb.com, api.m.jd.com, trade-ac
 ^https://vip.cqkeb.com/agefans/js/app.a4467c3b.js url 302 https://www.sunbk201.site/hackjs/app.a4467c3b.js
 ^https://vip.cqkeb.com/agefans/js/chunk-6e6ce277.e8b2bd69.js url 302 https://www.sunbk201.site/hackjs/chunk-6e6ce277.e8b2bd69.js
 ^https://vip.cqkeb.com/agefans/main.css url 302 https://www.sunbk201.site/hackjs/main.css
-^https://vip.cqkeb.com/agefans/js/app.a4467c3b.js - response-body n\|\|Dt response-body 1||Dt
 ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig|basicConfig) url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 ^http://.+/amdc/mobileDispatch url script-request-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
 ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail url script-response-body https://service.2ti.st/QuanX/Script/jd_tb_price/main.js
