@@ -2,9 +2,6 @@
 
 hostname = web.age-spa.com, p0.pstatp.com, vip.cqkeb.com, api.m.jd.com, trade-acs.m.taobao.com
 
-# Change User-agent
-^http:// - request-header (\r\n)User-[A|a]gent:.+(\r\n) request-header $1User-Agent: F$2
-
 # rewrite age spa
 ^https://web.age-spa.com:8443/ url response-body viewport-fit=cover"> response-body viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-touch-fullscreen" content="yes" /><link href="https://www.sunbk201.site/hackjs/age.jpg" rel="apple-touch-icon-precomposed"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-828x1792.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-1536x2048.png">
 ^https://p0.pstatp.com/origin/13843000115ffe11c0c01 url 302 https://www.sunbk201.site/hackjs/sunbk201.jpg
