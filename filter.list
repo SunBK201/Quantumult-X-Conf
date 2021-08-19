@@ -1,4 +1,5 @@
 # https://raw.githubusercontent.com/SunBK201/Quantumult-X-Conf/master/filter.list
 
-host-suffix, ios.conntest.moonlight-stream.org, direct
+host-suffix, conntest.moonlight-stream.org, direct
 host-suffix, trails-game.com, direct
+host-suffix, yuc.wiki, direct
