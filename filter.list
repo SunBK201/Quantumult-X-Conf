@@ -4,6 +4,7 @@ host-suffix, conntest.moonlight-stream.org, direct
 host-suffix, trails-game.com, direct
 host-suffix, yuc.wiki, direct
 
+# Microsoft
 host-keyword, 1drv, direct
 host-keyword, microsoft, direct
 host-suffix, aadrm.com, direct
