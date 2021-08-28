@@ -4,6 +4,7 @@ host-suffix, conntest.moonlight-stream.org, direct
 host-suffix, trails-game.com, direct
 host-suffix, yuc.wiki, direct
 ip-cidr, 239.255.255.250/32, direct
+ip-cidr, 198.19.0.255/32, direct
 
 # Microsoft
 host-keyword, 1drv, direct
