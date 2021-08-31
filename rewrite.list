@@ -1,6 +1,9 @@
 # https://raw.githubusercontent.com/SunBK201/Quantumult-X-Conf/master/rewrite.list
 
-hostname = web.age-spa.com, p0.pstatp.com, vip.cqkeb.com, api.m.jd.com, trade-acs.m.taobao.com
+hostname = web.age-spa.com, p0.pstatp.com, vip.cqkeb.com, api.m.jd.com, trade-acs.m.taobao.com, ntp.msn.cn
+
+# block edge msn licence
+^https://ntp.msn.cn/resolver/api/resolve/v3/config/ url response-body 增值电信业务经营许可证: 合字B2-20090007 response-body $1
 
 # rewrite age spa
 ^https://web.age-spa.com:8443/ url response-body viewport-fit=cover"> response-body viewport-fit=cover"><meta name="apple-mobile-web-app-capable" content="yes" /><meta name="apple-touch-fullscreen" content="yes" /><link href="https://www.sunbk201.site/hackjs/age.jpg" rel="apple-touch-icon-precomposed"><link rel="apple-touch-startup-image" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-828x1792.png"><link rel="apple-touch-startup-image" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2)" href="https://www.sunbk201.site/hackjs/apple-launch-1536x2048.png">
